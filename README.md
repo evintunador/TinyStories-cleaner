@@ -26,3 +26,5 @@ You can load the cleaned data using:
 with open('cleaned_data.pkl', 'rb') as file:
 	data_strings = pickle.load(file)
 ```
+
+Further, open `train_test_split.ipynb` to take a look at the data and split into `tiny_stories_train_data.pkl` and `tiny_stories_val_data.pkl`
